@@ -1,0 +1,28 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "92175e37b56c14ea42420686f06f39b3"
+name = "learning-shop1fy"
+application_url = "https://about-annex-solomon-short.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "learning-shop1fy.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://about-annex-solomon-short.trycloudflare.com/auth/callback",
+  "https://about-annex-solomon-short.trycloudflare.com/auth/shopify/callback",
+  "https://about-annex-solomon-short.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-04"
+
+[pos]
+embedded = false
