@@ -2,7 +2,7 @@
 
 client_id = "92175e37b56c14ea42420686f06f39b3"
 name = "learning-shop1fy"
-application_url = "https://about-annex-solomon-short.trycloudflare.com"
+application_url = "https://bobby-france-twelve-gifts.trycloudflare.com"
 embedded = true
 
 [build]
@@ -16,9 +16,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://about-annex-solomon-short.trycloudflare.com/auth/callback",
-  "https://about-annex-solomon-short.trycloudflare.com/auth/shopify/callback",
-  "https://about-annex-solomon-short.trycloudflare.com/api/auth/callback"
+  "https://bobby-france-twelve-gifts.trycloudflare.com/auth/callback",
+  "https://bobby-france-twelve-gifts.trycloudflare.com/auth/shopify/callback",
+  "https://bobby-france-twelve-gifts.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
